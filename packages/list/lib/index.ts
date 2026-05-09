@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { autoDetect, PortInfo } from '@serialport/bindings-cpp'
+import { autoDetect, PortInfo } from 'bindings-cpp-fix-was'
 import { program, Option } from 'commander'
 import { readFileSync } from 'node:fs'
 

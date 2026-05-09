@@ -243,7 +243,7 @@ export class SerialPortStream<T extends BindingInterface = BindingInterface> ext
     if (typeof encoding === 'function') {
       return super.write(data, encoding)
     }
-    return super.write(data, encoding, callback)
+    return super.write(data, encoding!, callback)
   }
 
   _write(data: Buffer, encoding: BufferEncoding, callback: (error: Error | null) => void) {

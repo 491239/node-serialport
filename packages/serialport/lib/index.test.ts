@@ -2,7 +2,7 @@ import { randomBytes } from 'crypto'
 import { SerialPort as SerialPortAutoDetect, SerialPortMock } from './'
 import { assert } from '../../../test/assert'
 import { testOnPlatform } from '../../../test/testOnPlatform'
-import { LinuxOpenOptions } from '@serialport/bindings-cpp'
+import { LinuxOpenOptions } from 'bindings-cpp-fix-was'
 
 const platform = process.platform
 if (platform !== 'win32' && platform !== 'darwin' && platform !== 'linux') {

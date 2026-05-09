@@ -2,7 +2,7 @@
 
 // outputs the path to an Arduino to stdout or an error to stderror
 
-import { autoDetect } from '@serialport/bindings-cpp'
+import { autoDetect } from 'bindings-cpp-fix-was'
 autoDetect()
   .list()
   .then(ports => {
