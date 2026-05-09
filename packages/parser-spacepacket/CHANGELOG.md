@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 14.0.0 (2026-05-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commander to v9.2.0 ([#2486](https://github.com/serialport/node-serialport/issues/2486)) ([4a14c4d](https://github.com/serialport/node-serialport/commit/4a14c4d817403c603c86be3a76c22634660a1a35))
+* linting ([#2966](https://github.com/serialport/node-serialport/issues/2966)) ([867d8d2](https://github.com/serialport/node-serialport/commit/867d8d2eeb2ec76573991813d66cc99a0575db1b))
+* stopbits definition and move binding-mock ([#2419](https://github.com/serialport/node-serialport/issues/2419)) ([63ec6bb](https://github.com/serialport/node-serialport/commit/63ec6bb7d6be312bcc8d0976c9780325c9898632))
+
+
+### chore
+
+* upgrade packages and minimum node ([#2630](https://github.com/serialport/node-serialport/issues/2630)) ([daffa1a](https://github.com/serialport/node-serialport/commit/daffa1ae78895b3ed51db708219b312845bcd82b))
+* Upgrade to @serialport/bindings-cpp 13 ([#2963](https://github.com/serialport/node-serialport/issues/2963)) ([a4ea1fe](https://github.com/serialport/node-serialport/commit/a4ea1fe7ad73d45eae642634aa1e17fc640b1368))
+
+
+### Features
+
+* Typescript everything ([#2406](https://github.com/serialport/node-serialport/issues/2406)) ([7ae6e51](https://github.com/serialport/node-serialport/commit/7ae6e51a84738da1999863a80f4ec8ce7acd953a))
+
+
+### BREAKING CHANGES
+
+* This upgrade brings node 20 as the lowest supported version - no other changes
+* drop node 12
+
+
+
+
+
+
 # [13.0.0](https://github.com/serialport/node-serialport/compare/v12.0.0...v13.0.0) (2024-12-24)
 
 

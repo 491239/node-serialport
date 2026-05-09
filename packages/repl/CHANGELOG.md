@@ -3,6 +3,45 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 14.0.0 (2026-05-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commander to v9.2.0 ([#2486](https://github.com/serialport/node-serialport/issues/2486)) ([4a14c4d](https://github.com/serialport/node-serialport/commit/4a14c4d817403c603c86be3a76c22634660a1a35))
+* enabling disabled tests rename all pkgs to lib ([#1941](https://github.com/serialport/node-serialport/issues/1941)) ([b1cc840](https://github.com/serialport/node-serialport/commit/b1cc840e5a101765faa2a36ef63b9fa13c83c6bc))
+* improve repl ([#2425](https://github.com/serialport/node-serialport/issues/2425)) ([7538995](https://github.com/serialport/node-serialport/commit/7538995c8a9e086be20b8d12b309c41ca93e4e43))
+* learn now needs the package-lock.json files ([4b8fc24](https://github.com/serialport/node-serialport/commit/4b8fc248778b69f7afde17ab9ef791ef8867c4a5))
+* linting ([#2966](https://github.com/serialport/node-serialport/issues/2966)) ([867d8d2](https://github.com/serialport/node-serialport/commit/867d8d2eeb2ec76573991813d66cc99a0575db1b))
+* npmignore should ignore .DS_Store files ([#1954](https://github.com/serialport/node-serialport/issues/1954)) ([eb6b57b](https://github.com/serialport/node-serialport/commit/eb6b57bffe33c9bc7775bb6b0fdf1081db86ebcc))
+* stopbits definition and move binding-mock ([#2419](https://github.com/serialport/node-serialport/issues/2419)) ([63ec6bb](https://github.com/serialport/node-serialport/commit/63ec6bb7d6be312bcc8d0976c9780325c9898632))
+
+
+### chore
+
+* remove node6 support and upgrade codebase ([#1851](https://github.com/serialport/node-serialport/issues/1851)) ([d4f15c0](https://github.com/serialport/node-serialport/commit/d4f15c0a09750bdb42e5631ffc412c28b9f09174))
+* upgrade packages and minimum node ([#2630](https://github.com/serialport/node-serialport/issues/2630)) ([daffa1a](https://github.com/serialport/node-serialport/commit/daffa1ae78895b3ed51db708219b312845bcd82b))
+* Upgrade to @serialport/bindings-cpp 13 ([#2963](https://github.com/serialport/node-serialport/issues/2963)) ([a4ea1fe](https://github.com/serialport/node-serialport/commit/a4ea1fe7ad73d45eae642634aa1e17fc640b1368))
+
+
+### Features
+
+* drop callback argument on SerialPort.list() ([#1943](https://github.com/serialport/node-serialport/issues/1943)) ([145b906](https://github.com/serialport/node-serialport/commit/145b906d9c3d5f9c9a6382ad6348a9b08b4b6d0a))
+* move cli tools to their own packages ([#1664](https://github.com/serialport/node-serialport/issues/1664)) ([103498e](https://github.com/serialport/node-serialport/commit/103498e8dd1a13b36f3e730a2c397da43e138c9a)), closes [#1659](https://github.com/serialport/node-serialport/issues/1659)
+* Typescript everything ([#2406](https://github.com/serialport/node-serialport/issues/2406)) ([7ae6e51](https://github.com/serialport/node-serialport/commit/7ae6e51a84738da1999863a80f4ec8ce7acd953a))
+
+
+### BREAKING CHANGES
+
+* This upgrade brings node 20 as the lowest supported version - no other changes
+* drop node 12
+* bindings now use async functions so they’ll never throw, only reject
+
+
+
+
+
+
 # [13.0.0](https://github.com/serialport/node-serialport/compare/v12.0.0...v13.0.0) (2024-12-24)
 
 
